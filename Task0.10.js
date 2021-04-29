@@ -25,5 +25,4 @@ function getCommon(str1, str2) {
       }
       return common;
     }
-    document.getElementById("demo").innerHTML =
-    getCommon("house","Computer")
+    

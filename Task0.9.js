@@ -12,5 +12,4 @@ function getVowel(str) {
       }
       return vowels;
     }
-    document.getElementById("demo").innerHTML =
-    getVowel("Mdu");
+   
