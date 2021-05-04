@@ -7,7 +7,7 @@ var rem = num % 2;
   
 }
 
-//insert number to print "even" or "odd" in the brackets below
+//insert number to print "even" or "odd" in the brackets below:
 console.log(evenOrOdd()); 
 
 
