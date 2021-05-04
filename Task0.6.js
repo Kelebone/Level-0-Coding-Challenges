@@ -1,8 +1,10 @@
-function maxNum (a, b, c) {
-    if (a > b && a > c) {
-        return a;
+function maxNum (num1, num2, num3) {
+    if (num1 > num2 && num1 > num3) {
+        return num1;
     }
-} if (b > a && b > c) {
-    return b;
+        if (num2 > num1 && num2 > num3) {
+            return num2;
+        }
+    return num3;
+
 }
-return c;

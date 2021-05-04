@@ -1,7 +1,7 @@
-function areaOfATriangle (a,b,c){
-    var p = a + b + c;
-    var s = 0.5*p;
-    var inner = s*(s-a)*(s-b)*(s-c);
+function areaOfATriangle (breadth,height,length){
+    var perimeter = breadth + height + length;
+    var semiperimeter = 0.5*perimeter;
+    var inner = semiperimeter*(semiperimeter-breadth)*(semiperimeter-height)*(semiperimeter-length);
     if (inner >= 0) {
         var area = Math.sqrt(inner);
         return area;
